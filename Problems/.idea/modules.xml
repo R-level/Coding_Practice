@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CoderByte/CoderByte.iml" filepath="$PROJECT_DIR$/CoderByte/CoderByte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codewars/Codewars.iml" filepath="$PROJECT_DIR$/Codewars/Codewars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Problems.iml" filepath="$PROJECT_DIR$/.idea/Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project_Euler/Project_Euler.iml" filepath="$PROJECT_DIR$/Project_Euler/Project_Euler.iml" />
+    </modules>
+  </component>
+</project>
