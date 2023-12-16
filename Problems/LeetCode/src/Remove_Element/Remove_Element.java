@@ -2,8 +2,9 @@ package Remove_Element;
 
 public class Remove_Element {
     public static void main(String[] args) {
-        int[] nums = new int[]{2,81,5,6,2,3,2,5};
-        int val =2;
+       // int[] nums = new int[]{2,81,5,6,2,3,2,5};
+        int[] nums={1};
+        int val =1;
         System.out.println(removeElement(nums,val));
     }
     public static int removeElement(int[] nums, int val) {
