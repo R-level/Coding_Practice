@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class FInd_Intersection {
+public class Find_Intersection {
 
         public static String FindIntersection(String[] strArr) {
             // a list for containing the arrays of Strings
