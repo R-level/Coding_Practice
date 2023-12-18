@@ -1,0 +1,37 @@
+A palindromic number reads the same both ways. The largest palindrome made from the product of two
+-digit numbers is
+9009 = 91 x 99
+
+Find the largest palindrome made from the product of two
+ 3 digit numbers.
+
+ Intuition:
+ We start our search from 999 x 999  [two multiples ]
+ Idea to keep one constant while the 2nd multiple iterates
+ The first palindrome to be found will be the largest one.
+
+ Implementation
+ Example of first round
+ 1) First check multiple 1 = 999 ; multiple 2 = 999
+ 2) if successful return the palindrome number where:
+    palindrome number = multiple 1 x multiple 2
+
+ 3) if not successful multiple 2 must decrement before next check
+    multiple 1 = 999 [stays the same] multiple 2 =998
+
+ 4)if successful do step 2
+
+ 5)if not successful repeat step 3 until multiple 2 =100
+
+ 6) No palindrome has been found so decrement multiple 1 [998] and set multiple 2 to 998
+    then go on to repeat from 2 until multiple 1 reaches 100
+ 7) if no palindrome number exists return 0;
+
+ First Run
+ 580085 is largest palindrome returned multiple1 = 995 and multiple2 583
+ this is wrong
+
+ 906609 is the correct answer. Initial thought was that the first palindrome would be the correct one.
+ That the multiples would be a multiple of 999 turned out not to be the case. and thus program gave a
+ palindrome lower down where multiple1= 995 and multiple2=583. But the largest palindrome
+ only occurs at multiple1= 993 and multiple2=913
