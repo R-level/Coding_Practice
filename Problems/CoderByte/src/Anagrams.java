@@ -35,7 +35,7 @@ public class Anagrams {
             }
             listedAnagrams.addAll(anagramGroups.values());
 
-            //Find the biggerst group of anagrams
+            //Find the biggest group of anagrams
             int max=0;
             for(List<String> anagramList: listedAnagrams)
             {
