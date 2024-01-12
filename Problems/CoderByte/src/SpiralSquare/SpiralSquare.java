@@ -43,7 +43,7 @@ public class SpiralSquare {
 
             String [][] square = new String[rows][columns];
             int elements = rows*columns;
-          
+
             //pointers
             int i=0;
             int j=0;
