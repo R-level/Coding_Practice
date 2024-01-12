@@ -24,6 +24,19 @@ public class Merge_Sorted_Array {
       //  for (int l = 0; l < nums1.length; l++) {
       //      System.out.print(nums1[l]);
       //  }
+
+        /**
+         * A better version
+         * class Solution {
+         *     public void merge(int[] nums1, int m, int[] nums2, int n) {
+         *
+         *         for(int i = 0 ; i<n; i++){
+         *            nums1[m+i]=nums2[i];
+         *        }
+         *         Arrays.sort(nums1);
+         *
+         *     }
+         * }*/
         }
 
 
